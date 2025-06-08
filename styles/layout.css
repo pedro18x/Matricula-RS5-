@@ -12,7 +12,7 @@ main {
 
   .main-container {
     max-width: 33rem;
-    margin-left: auto;
+    margin-inline: auto;
 
   }
 
