@@ -16,3 +16,26 @@ legend {
   font: 600 1rem/1.25 var(--font-family);
   margin-bottom: 1.5rem;
 }
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.btn-primary {
+  padding: 1rem 2rem;
+  background-color: var(--element-primary);
+  border: 0;
+  border-radius: .5rem;
+
+  color: var(--text-button);
+  font: 600 1rem/1.5 var(--font-family);
+
+  cursor: pointer;
+  transition: background-color .2s;
+}
+
+.btn-primary:hover {
+  background-color: #0c4a6e;
+}
