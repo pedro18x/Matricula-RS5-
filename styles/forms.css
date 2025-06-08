@@ -37,5 +37,5 @@ legend {
 }
 
 .btn-primary:hover {
-  background-color: #0c4a6e;
+  background-color: var(--text-highlight);
 }
