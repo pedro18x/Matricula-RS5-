@@ -40,3 +40,7 @@ legend {
 .btn-primary:hover {
   background-color: var(--text-highlight);
 }
+
+fieldset + fieldset {
+  margin-top: 3rem;
+}
